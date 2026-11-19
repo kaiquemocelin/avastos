@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suporte</title>
+    <script src="https://kit.fontawesome.com/b5b8108e4e.js" crossorigin="anonymous"></script>
+    <title>Avastos | Suporte</title>
   </head>
 
   <body>
@@ -30,6 +31,85 @@
     <hr>
 
     <main>
+
+      <section class="superior-do-site">
+        <div class="superior">
+          <p>AVASTOS/SERVIÇOS</p>
+          <p>CUIDADO E ORIENTAÇÃO</p>
+
+          <h1>Como podemos ajudar?</h1>
+
+          <p>Encontre respostas sobre cadastro, navegação e compromissos. Este formulário é apenas demonstrativo e não envia mensagens</p>
+        </div>
+      </section>
+
+      <section class="centro-primeira-caixa">
+        <div class="primeira-caixa">
+          <h2>Envie sua dúvida</h2>
+
+          <img src="../img/icone-de-duvida.png" alt="">
+          <div class="nome">
+            <label for="idname">Seu nome:</label>
+            <input type="name" for="idname" placeholder="Digite seu nome" required></input>
+          </div>
+          <br>
+
+          <div class="email">
+            <label for="idemail">Seu nome:</label>
+            <input type="email" for="idemail" placeholder="avastos@gmail.com" required></input>
+          </div>
+          <br>
+
+          <div class="Assunto">
+            <label for="idassunto"></label>
+            <select name="assunto" id="idassunto">
+              <option>Selecione</option>
+              <option value="Cadastro">Cadastro</option>
+              <option value="Consultas">Consultas</option>
+              <option value="Acessibilidade">Acessibilidade</option>
+              <option value="Outro assunto">Outro assunto</option>
+            </select>
+          </div>
+          <br><br>
+
+          <div class="mensagem">
+            <label for="idmensagem">Mensagem</label>
+            <textarea name="mensagem" id="idmensagem" placeholder="Escreva sua dúvida..." maxlength="1000"></textarea>
+          </div>
+          <br>
+
+          <button class="btn-enviar-mensagem">Enviar mensagem<i class="fa-solid fa-arrow-right-long"></i></button>
+        </div>
+      </section>
+
+      <section class="centro-segunda-caixa">
+        <div class="segunda-caixa">
+          <img src="../img/pesquisa.png" alt="">
+          <h2>Perguntas frequentes</h2>
+          
+          <div class="perguntas-frequentes">
+            <details>
+              <summary>Como faço meu cadastro?</summary>
+              <p>Acesse a página Cadastro pelo meu e preencha os campos solicitados.</p>
+            </details>
+
+            <details>
+              <summary>Como vejo meus compromissos?</summary>
+              <p>Acesse consultas no menu para visualizar os exemplos demonstrativos.</p>
+            </details>
+
+            <details>
+              <summary>Como solicito acessibilidade?</summary>
+              <p>Na demonstração, você pode indicar uma necessidade no formulário de cadastro. Em um sistema real, isso precisaria ser tratado por uma equipe responsável.</p>
+            </details>
+          </div>
+
+          <div class="telefone-icone">
+            <img src="../img/telefone.png" alt="">
+          </div>
+          
+        </div>
+      </section>
 
     </main>
 
