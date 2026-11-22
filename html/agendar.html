@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suporte</title>
+    <title>Avastos | Agendamento</title>
+    <script src="https://kit.fontawesome.com/b5b8108e4e.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -31,6 +32,97 @@
 
     <main>
 
+      <section class="superior-do-site">
+        <div>
+          <p>AVASTOS/AGENDAMENTO</p>
+          <p>ÁREA DO PACIENTE <img src="../img/circulo.png" alt=""> NOVO ACESSO </p>
+
+          <h1>Vamos cuidar da sua saúde.</h1>
+
+          <p>Preencha as informações abaixo para solicitar um agendamento.</p>
+        </div>
+      </section>
+
+      <section class="primeira-caixa">
+        <div class="Novo-agendamento">
+          <img src="../img/icone-calendario.png" alt="">
+          <h2>Novo agendamento</h2>
+          <p>Campos com * são obrigatórios</p>
+          <hr>
+
+          <div class="labels">
+            <div class="tipo-de-agendamento">
+              <label for="idagendamento">Tipo de atendimento*</label>
+              <select name="agendamento" id="idagendamento">
+                <option>Selecione um serviço</option>
+                <option value="clinica-geral">Clínica geral</option>
+                <option value="pediatria">Pediatria</option>
+                <option value="ginecologia">Ginecologia</option>
+                <option value="vacinacao">Vacinação</option>
+                <option value="exames">Exames</option>
+                <option value="odontologia">Odontologia</option>
+              </select>
+            </div>
+
+            <div class="unidade-de-saude">
+              <label for="idunidade">Unidade de saúde*</label>
+              <select name="unidade" id="idunidade">
+                <option>Selecione uma unidade</option>
+                <option value="ubs-centro">UBS Centro</option>
+                <option value="UBS-Jardim-das-flores">UBS Jardim das Flores</option>
+                <option value="UBS-Vila-Nova">UBS Vila Nova</option>
+                <option value="UBS-Parque-Esperança">UBS Parque Esperança</option>
+              </select>
+            </div>
+
+            <div class="data">
+              <label for="iddata">Data desejada*</label>
+              <input type="date" id="idata" required>
+            </div>
+
+            <div class="horario-preferencial">
+              <label for="idhorario">Horário preferencial</label>
+              <select name="horario" id="idhorario">
+                <option value="08:00">08:00</option>
+                <option value="09:00">09:00</option>
+                <option value="10:00">10:00</option>
+                <option value="13:00">13:00</option>
+                <option value="14:00">14:00</option>
+                <option value="15:00">15:00</option>
+              </select>
+            </div>
+
+            <div class="motivo-ou-observacoes">
+              <label for="idmotivo">Motivo ou observações</label>
+              <textarea name="motivo" id="idmotivo" placeholder="Conte breveamente o motivo do atendimento (opcional)"></textarea>
+            </div>
+
+            <div class="check">
+              <label for="idcheck">
+                <input type="checkbox" name="confirmacao" id="idcheck" required>Confirmo que todos os dados informados estão corretos.
+              </label>
+            </div>
+            <hr>
+            
+            <div class="ultimo-da-primeira-caixa">
+              <p>Este protocolo não envia dados para uma unidade do SUS.</p>
+              <button>Solicitar Agendamento<i class="fa-duotone fa-thin fa-arrow-up-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="segunda-caixa">
+        <img src="../img/Vector-agendar.png" alt="">
+        <h2>Antes de agendar</h2>
+        <p>Tenha em mãoes seus documentos e confira os dados antes de enviar a colicitação.</p>
+        <ul>
+          <li>CPF ou Cartão Nacional de Saúde (CNS)</li>
+          <li>Data de nascimento</li>
+          <li>Unidade de referência, se souber</li>
+        </ul>
+        <p class="p-com-efeito">Em caso de urgência, procure uma UPA ou ligue 192 (SAMU).</p>
+      </section>
     </main>
 
     <footer>
