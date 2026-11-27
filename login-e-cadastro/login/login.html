@@ -3,17 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../login/login.css">
   <title>Document</title>
 </head>
 
 <body>
-  <header>
+  <header class="hero">
     <nav>
-      <a href="../../html/index.html">Voltar ao Início</a>
+      <a class="voltar" href="../../html/index.html">Voltar ao Início</a>
     </nav>
   </header>
 
-  <main>
+  <main class="principal">
 
     <section class="primeira-caixa">
       <div class="logo">
@@ -21,44 +22,51 @@
         <h2 class="marca">Avas<span>tos</span></h2>
       </div>
       <div class="infos">
-        <p>SUA SAÚDE, EM UM SÓ LUGAR</p>
-        <h1>Bom ter você <span> de volta. </span></h1>
+        <p class="azul">SUA SAÚDE, EM UM SÓ LUGAR</p>
+        <h1>Bom ter você <span class="azul"> de volta. </span></h1>
         <p>Acesse sua área para acompanhar seus atebdimentos e solicitações.</p>
+      </div>
+      <div class="parte-baixo">
         <p class="p-abaixo">SAÚDE ACESSÍVEL • CUIDADO CONTÍNUO</p>
       </div>
     </section>
     <br><br>
 
     <section class="segunda-caixa">
-      <div>
+      <div class="caixa-cima">
         <p>ACESSO DO PACIENTE</p>
         <h2>Entre na sua conta.</h2>
         <p>Informe seus dados de acesso.</p>
+      </div>
         <div class="inputs">
           <div class="cpf-e-email">
-          <label for="id-cpf-e-email">CPF ou E-mail</label>
-          <input type="text" id="id-cpf-e-emai" placeholder="Digite seu CPF ou E-mail" required>
+            <div class="titulo">
+              <label for="id-cpf-e-email">CPF ou E-mail</label>
+            </div>
+            <input type="text" id="id-cpf-e-emai" placeholder="Digite seu CPF ou E-mail" required>
           </div>
           <div class="senha">
-            <label for="idsenha">Senha</label>
+            <div class="titulo">
+              <label for="idsenha">Senha</label>
+            </div>
             <input type="password" id="idsenha" placeholder="Sua senha">
           </div>
           <div class="esqueci-minha-senha">
             <p>Esqueci minha senha</p>
           </div>
           <div class="btn">
-            <button btn-azul>Entrar</button>
+            <button class="btn-button">Entrar</button>
           </div>
           <div class="cadastro">
-            <p>Ainda não tem conta? <span>Criar cadastro</span></p>
+            <p>Ainda não tem conta? <span class="azul">Criar cadastro</span></p>
           </div>
         </div>
-      </div>
+      
     </section>
 
   </main>
 
-  <footer>
+  <footer class="rodape">
     <p class="direitos-reservados">© 2026 Avastos. Todos os direitos reservados</p>
     <p>Juntos por uma vida melhor.</p>
   </footer>

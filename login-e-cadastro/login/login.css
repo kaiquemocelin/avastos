@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #050D0A;
+    color: #fff;
+}
+
+.voltar{
+    display: start;
+    text-decoration: none;
+    color: #fff;
+}
+
+.principal{
+    display: flex;
+    margin: 40px;
+}
+
+.azul{
+    color: #00FFFF;
+}
+
+.primeira-caixa{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 30px;
+    background-color: #072427;
+    width: 570px;
+    height: 500px;
+}
+
+.segunda-caixa{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 30px 160px;
+    background-color: #051315;
+    width: 570px;
+    height: 500px;
+}
+
+.caixa-cima{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#id-cpf-e-emai{
+    background-color: #051315;
+    border: 1px solid #00FFFF;
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+#idsenha{
+    background-color: #051315;
+    border: 1px solid #00FFFF;
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.esqueci-minha-senha{
+    text-align: right;
+    color: #00FFFF;
+}
+
+.btn-button{
+    background-color: #00FFFF;
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rodape{
+    padding: 7px;
+    margin: 30px;
+    border-top: 1px solid #00FFFF;
+    display: flex;
+    justify-content: space-between;
+}
